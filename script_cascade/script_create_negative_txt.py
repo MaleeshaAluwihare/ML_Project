@@ -1,8 +1,8 @@
 import os
 
 # Define the paths
-negatives_dir = '../negatives/resized'
-negatives_txt_path = '../negatives.txt'
+negatives_dir = 'negatives/resized'
+negatives_txt_path = 'negatives.txt'
 
 # Get list of image files in the negatives directory
 image_files = [f for f in os.listdir(negatives_dir) if f.endswith('.jpg') or f.endswith('.png')]

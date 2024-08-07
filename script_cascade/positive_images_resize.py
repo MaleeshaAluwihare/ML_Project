@@ -2,7 +2,7 @@ import os
 import cv2
 
 # Base directory
-base_dir = '../positives'
+base_dir = 'positives'
 
 # Target sizes and directories
 sizes = [512, 256, 128, 64, 32]
@@ -19,7 +19,7 @@ def resize_image(image, size):
 
 
 # Load the annotations
-annotations_file = '../positives_1024x1024.txt'
+annotations_file = 'positives_1024x1024.txt'
 with open(annotations_file, 'r') as file:
     annotations = file.readlines()
 

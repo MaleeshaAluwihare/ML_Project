@@ -2,7 +2,7 @@ import os
 import cv2
 
 # Paths to the directories
-current_dir = '../negatives'
+current_dir = 'negatives'
 resized_dir = os.path.join(current_dir, 'resized')
 os.makedirs(resized_dir, exist_ok=True)
 
