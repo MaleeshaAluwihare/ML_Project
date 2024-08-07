@@ -1,8 +1,9 @@
 import cv2
 from matplotlib import pyplot as plt
 
+
 # Load the trained cascade classifier
-cascade_path = 'output/64/cascade.xml'
+cascade_path = 'script_cascade/output/64/cascade.xml'
 print(f"Loading cascade classifier from: {cascade_path}")
 nose_cascade = cv2.CascadeClassifier(cascade_path)
 
@@ -13,7 +14,7 @@ else:
     print("Cascade classifier loaded successfully")
 
 # Load an image
-image_path = '../test_images/image5.jpg'
+image_path = 'test_images/image5.jpg'
 print(f"Loading image from: {image_path}")
 image = cv2.imread(image_path)
 

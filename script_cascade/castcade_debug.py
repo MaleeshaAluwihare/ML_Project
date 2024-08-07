@@ -3,7 +3,7 @@ import cv2
 from matplotlib import pyplot as plt
 
 # Load the trained cascade classifier
-cascade_path = 'output/64/cascade.xml'
+cascade_path = 'script_cascade/output/64/cascade.xml'
 print(f"Loading cascade classifier from: {cascade_path}")
 nose_cascade = cv2.CascadeClassifier(cascade_path)
 
@@ -14,8 +14,8 @@ else:
     print("Cascade classifier loaded successfully")
 
 # Directories
-image_dir = '../test_images'
-negatives_dir = '../negatives'
+image_dir = 'test_images'
+negatives_dir = 'negatives'
 os.makedirs(negatives_dir, exist_ok=True)
 
 # Get list of image files in the directory

@@ -58,7 +58,7 @@ for size, target_dir in zip(sizes, target_dirs):
         new_annotations.append(f"{image_path} {num_objects} {x} {y} {w} {h}\n")
 
     # Save new annotations to file
-    annotations_file = f'../positives_{size}x{size}.txt'
+    annotations_file = f'positives_{size}x{size}.txt'
     with open(annotations_file, 'w') as file:
         file.writelines(new_annotations)
 
