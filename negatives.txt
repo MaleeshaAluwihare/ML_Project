@@ -652,7 +652,10 @@ negatives\resized\image1584.jpg
 negatives\resized\image1585.jpg
 negatives\resized\image1586.jpg
 negatives\resized\image1587.jpg
+negatives\resized\image1588.jpg
+negatives\resized\image1589.jpg
 negatives\resized\image159.jpg
+negatives\resized\image1590.jpg
 negatives\resized\image16.jpg
 negatives\resized\image160.jpg
 negatives\resized\image161.jpg
